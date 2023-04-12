@@ -29,7 +29,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "HotelProject.WebApi", Version = "v1" });
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "HotelProject.WebApiConsume", Version = "v1" });
 });
 
 var app = builder.Build();
